@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <link href="bootstrap/bootstrap.min.css" rel="stylesheet" />
+        <style>
+             .navbar
+            {
+                width:auto;
+                background-color:saddlebrown;
+                overflow:auto;
+                font-family: cursive;
+				float:right;
+            }
+            .navbar a
+            {
+                padding: 12px;
+                color:antiquewhite;
+                font-size:30px;
+                float: right;
+            }
+            .navbar a:hover
+            {
+                background-color: black;
+            }
+            .active
+            {
+                background-color:green;
+            }
+			.header
+            {
+                background-image: url('image/pic1.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 50%;
+				width:100%;
+				overflow:auto;
+                color:antiquewhite;
+                font-family:papyrus;
+			}
+            body
+            {
+                background-image: url('image/kkk1.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            label
+            {
+                color:antiquewhite;
+                font-size: 20px;
+            }
+            img
+            {
+                padding-left: 20px;;
+                padding-right: 20px; 
+                padding-top: 15px;      
+            }
+        
+            .footer
+            {
+                text-align: center;
+                position:absolute;
+                background-color:tan;
+                color:saddlebrown;
+                width: 100%;
+
+            }
+            
+        </style>
+
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="feedback.html">feedback</a>
+            <a class="active" href="aboutus.html">aboutus</a>
+            <a href="menu1.html">menu</a>
+            <a href="registration.html">registration</a>
+            <a href="log.html">login</a>
+            <a href="home.html">home</a>
+        </div>
+            <div class="jumbotron header text-center " >
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <img src="image/kk3.jpg" height="220px" width="390px">
+                </td>
+                <td>
+                    <img src="image/kk2.jpg" height="220px" width="390px">
+                </td>
+                <td>
+                    <img src="image/kk4.jpg" height="220px" width="390px">
+                </td>
+            </tr>
+        </table>
+
+        <h1 style="color:bisque;font-family: papyrus; font-size: 50px; text-align: center;"> Our coffee shop
+        <p style="color: bisque; font-family:papyrus; font-size: 40px; text-align: center;" >Discover a haven of extraodinary coffee</br>experiences in surat city.More than just a</br>coffee shop,we are a tight-knit community</br>of coffee aficionados,commited to</br>curating moments that enliven your senses</br>and foster meaningful connections.</p>
+        </h1>
+
+        <h1 style="color: bisque; font-size: 50px; font-family: papyrus;text-align: center;">Our Story
+            <p style="color:bisque; font-size: 40px; font-family: papyrus;">Our journey commenced with a simple yet</br>profound passion:the love for a flawlessly</br>
+            brewed cup of coffee.Fueled by this shared</br>vision,our founders embarked on a mission</br>
+            to establlish a sanctury where coffee</br>enthusiats could indugle in the artistry of a </br>
+            meticulously crafted brew.What strated as </br>a dream swiftly evolved into the vibrant and</br>
+            welcoming space you find before you.</p> </h1>
+        <footer class="container-fluid footer text-center">
+            <h2 style="font-family: cursive;">prepare by khushi</h2>
+        </footer>
+        
+    </body>
+</html>

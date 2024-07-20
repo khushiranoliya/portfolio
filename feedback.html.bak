@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <link href="bootstrap/bootstrap.min.css" rel="stylesheet" />
+        <style>
+            .navbar
+            {
+                width:auto;
+                background-color:saddlebrown;
+                overflow:auto;
+                font-family: cursive;
+				float:right;
+            }
+            .navbar a
+            {
+                padding: 12px;
+                color:antiquewhite;
+                font-size:25px;
+                float: right;
+            }
+            .navbar a:hover
+            {
+                background-color: black;
+            }
+            .active
+            {
+                background-color:green;
+            }
+			.header
+            {
+                background-image: url('image/pic1.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 50%;
+				width:100%;
+				overflow:auto;
+                color:antiquewhite;
+                font-family:papyrus;
+            }
+            body
+            {
+                background-image: url('image/kkk1.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            label
+            {
+                color:antiquewhite;
+  
+            }
+            img
+            {
+                padding-left: 20px;;
+                padding-right: 20px; 
+                padding-top: 15px;      
+            }
+        
+            .footer
+            {
+                text-align: center;
+                position:absolute;
+                background-color:tan;
+                color:saddlebrown;
+                width: 100%;
+
+            }
+            
+        </style>
+
+    </head>
+    <body>
+        <div class="navbar">
+            <a class="active" href="feedback.html">feedback</a>
+            <a href="aboutus.html">aboutus</a>
+            <a href="menu1.html">menu</a>
+            <a href="registration.html">registration</a>
+            <a href="login.html">login</a>
+            <a href="home.html">home</a>
+        </div>
+            <div class="jumbotron header text-center " >
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <h1 style="color:bisque; font-family: papyrus; font-size: 40px;" >Got a question?</h1>
+            <p style="color: bisque; font-size: 30px; font-family: papyrus;"><strong>chat with us our team is here to help to solve your problem.</strong></p>
+            <form class="form-vertical">
+            <div class="form-group">
+                <lable for="txtname" style="color:bisque; font-family: papyrus; font-size: 30px">Full name:</lable>
+                <input type="text" class="form-control" id="txtname" placeholder="enter your name" style="color:black;font-size: 20px; font-family: papyrus;">
+            </div>
+            <div class="form-group">
+                <lable for="txtemail" style="color:bisque; font-family: papyrus; font-size: 30px">Email:</lable>
+                <input type="text" class="form-control" id="txtemail" placeholder="enter your email" style="color:black;font-size: 20px; font-family: papyrus;" >
+            </div>
+            <div class="form-group">
+                <lable for="txtnque" style="color:bisque; font-family: papyrus; font-size: 30px;">Question:</lable>
+                <input type="text" class="form-control" id="txtque" placeholder="ask your question" style=" color:black; font-size: 20px; font-family: papyrus;">
+            </div>
+            <div class="form-group">
+                    <button type="submit" class="btn btn-success">Submit</button>
+            </div>
+                </form>
+            </div>
+
+        <footer class="container-fluid footer text-center">
+            <h2 style="font-family:cursive;">prepare by khushi</h2>
+        </footer>
+        
+    </body>
+</html>

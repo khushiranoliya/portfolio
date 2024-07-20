@@ -1,0 +1,50 @@
+<html>
+    <head>
+    <style>
+        .mydiv
+        {
+            background:teal;
+            height:300;
+            width:400;
+        }
+    </style>
+    </head>
+    <body>
+        <div id="div1" class="mydiv"></div>
+        <select id="ddcolor" onchange="changecolor()">
+            <option >----</option>
+            <option value="red">red</option>
+            <option value="green">green</option>
+            <option value="orange">orange</option>
+            <option value="blue">blue</option>
+        </select>
+        <script>
+            function changecolor()
+            {
+                var d1=document.getElementById('div1');
+                var ddc=document.getElementById('ddcolor').value;
+
+                if(ddc.match("red"))
+                {
+                    d1.style.background="red";
+                }
+                else if(ddc.match("green"))
+                {
+                    d1.style.background="green";
+                }
+                else if(ddc.match("orange"))
+                {
+                    d1.style.background="orange";
+                }
+                else if(ddc.match("blue"))
+                {
+                    d1.style.background="blue";
+                }
+                else
+                {
+                    alert("something went wrong...")
+                }
+            }
+        </script>
+    </body>
+</html>

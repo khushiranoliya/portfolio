@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.js">
+    <link rel="stylesheet" href="bootstrap/jquery.min.js">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/image/logo.png" alt="portfolio" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-close" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi,I'm <span style="color:#ff004f;">Khushi</span> <br>Ranoliya from India</h1>
+            </div>
+            <div class="bgimage"></div>
+        </div>
+    </div>
+
+    <!-- ----------------------aboutme-------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="assets/image/pic.png" alt="mypic" width="300" height="300">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about-paragraph">As a Full Stack Web Developer, I have successfully designed and
+                        implemented numerous projects,
+                        showcasing my ability to deliver high-quality solutions. I am skilled in both front-end and
+                        back-end development, utilizing languages such as HTML, CSS, JavaScript, and Php.</p>
+                </div>
+            </div>
+        </div>
+ 
+        <!-- --------------------Education------------------- -->
+
+        <div id="skills">
+            <div class="container">
+                <h1 class="skill-title">My Skills</h1>
+                <div class="skills-list">
+                    <div>
+                        <i class="fa fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>I am a Web Designer,My goal is to provide a rich website design using my skills like HTML ,
+                            CSS , JavaScript , Bootsrap . </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-code"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>I am an UX/UI Designer based in Surat passionate about creating result oriented user
+                            experience, My primary goal is to provide a rich engaging and innovative user experience to
+                            the user.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-code"></i>
+                        <h2>Web Developer</h2>
+                        <p>I am a Web Developer,I do back-end using my skills like Java , PHP , Node.js , Mongodb etc.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- --------------------education------------------------------ -->
+
+        <div id="education">
+            <div class="container">
+                <h1 class="education-title">My Education</h1>
+                <div class="education-list">
+                    <div>
+                        <i class="fa fa-mortar-board"></i>
+                        <h2>Year: 2022-2025</h2>
+                        <p><br> <b>University: V.N.S.G University</b><br>Field: Information Technology <br>Degree:BCA(Bachelor of
+                            Computer Application)</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-mortar-board"></i>
+                        <h2>Year: 2022</h2>
+                        <p><b>Mauni International School</b><br>Class:XII <br>Field:Commerce</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-mortar-board"></i>
+                        <h2>Year: 2020</h2>
+                        <p><b>P.P.S.V School</b><br>Class:XI </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+  <!-- -------------------------Portfolio--------------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="portfolio-title">My Work</h1>
+            <h5>Cafe</h5>
+            <div class="portfolio-list">
+            <a href="home.html"><img class="image" src="assets/image/cafe.jpg" alt="" height="400" width="400"></a>
+            <div class="project">
+            <a href="home.html" class="btn">click</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------contact----------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="title">Contact Me</h1>
+                <p><i class="fa fa-send"></i>khushi@gmail.com</p>
+                <p><i class="fa fa-phone"></i>98726 61712</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &#169; Khushi.</p>
+    </div>
+</div>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-300px";
+    }
+</script>
+</body>
+
+</html>
